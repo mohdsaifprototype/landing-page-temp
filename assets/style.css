@@ -59,6 +59,10 @@ header nav {
 
 main {
   min-height: calc(100vh - 64px - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 span {
